@@ -1090,7 +1090,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                                     n = e.isWin,
                                     r = JSON.parse(window.localStorage.getItem(j)), //dark
                                     i = JSON.parse(window.localStorage.getItem(S)), //colorblind
-                                    l = "Siteswaple https://siteswapexplorer.com/siteswaple/index.html\n".concat(s); //title
+                                    l = "Siteswaple https://siteswapexplorer.com/siteswaple/\n".concat(s); //title
                                 l += " ".concat(n ? t : "X", "/").concat(6), o && (l += "*");
                                 var d = "";
                                 return a.forEach((function(e) {
