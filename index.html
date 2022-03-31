@@ -5,42 +5,30 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Wurdle - the OG and classic daily word game</title>
-    <meta name="description" content="Guess the hidden word in 6 tries. A new word is available every day. Enjoy wordle!">
+    <title>Siteswaple</title>
+    <meta name="description" content="Guess the hidden siteswap in 6 tries. A new siteswap is available every day. Enjoy siteswaple!">
 
     <!-- FB Meta Tags -->
-    <meta property="og:url" content="https://avipars.github.io/WordleOSS/index.html">
+    <meta property="og:url" content="https://siteswapexplorer.com/siteswaple/index.html">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Wurdle - the OG  and classic daily word game">
-    <meta property="og:description" content="Guess the hidden word in 6 tries. A new word is available every day. Enjoy wordle!">
-    <meta property="og:image" content="https://avipars.github.io/WordleOSS/hello.jpg">
+    <meta property="og:title" content="Siteswaple">
+    <meta property="og:description" content="Guess the hidden siteswap in 6 tries. A new siteswap is available every day. Enjoy siteswaple!">
+    <meta property="og:image" content="https://siteswapexplorer.com/siteswaple/hello.jpg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="avipars.github.io">
+    <meta property="twitter:domain" content="siteswapexplorer.com/siteswaple">
 
     <meta name="theme-color" content="#6aaa64">
 
-    <link rel="icon" type="image/ico" href="https://www.aviparshan.com/israeldeals/icons/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://www.aviparshan.com/israeldeals/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.aviparshan.com/israeldeals/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.aviparshan.com/israeldeals/icons/favicon-16x16.png">
-    <link rel="manifest" href="https://www.aviparshan.com/israeldeals/icons/site.webmanifest">
-    <script data-goatcounter="https://avigit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-    <noscript>
-    <img src="https://avigit.goatcounter.com/count?p=/wordle-noscript">
-</noscript>
-    <!--
-    <link rel="manifest" href="https://www.powerlanguage.co.uk/wordle/manifest.json">
-    <link href="https://www.powerlanguage.co.uk/wordle/images/wordle_logo_32x32.png" rel="icon shortcut" sizes="3232">
-    <link href="https://www.powerlanguage.co.uk/wordle/images/wordle_logo_192x192.png" rel="apple-touch-icon">
-	 -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="icon.png" />
+    <link rel="manifest" href="manifest.json">
 
     <style>
         /* Global Styles & Colors */
-        
-         :root {
+
+        :root {
             --green: #6aaa64;
             --darkendGreen: #538d4e;
             --yellow: #c9b458;
@@ -60,8 +48,8 @@
             --game-max-width: 500px;
         }
         /* Light theme colors */
-        
-         :root {
+
+        :root {
             --color-tone-1: #1a1a1b;
             --color-tone-2: #787c7e;
             --color-tone-3: #878a8c;
@@ -72,7 +60,7 @@
             --opacity-50: rgba(255, 255, 255, 0.5);
         }
         /* Dark Theme Colors */
-        
+
         .nightmode {
             --color-tone-1: #d7dadc;
             --color-tone-2: #818384;
@@ -84,13 +72,13 @@
             --opacity-50: rgba(0, 0, 0, 0.5);
         }
         /* Constant colors and colors derived from theme */
-        
-         :root,
+
+        :root,
         .nightmode {
             --color-background: var(--color-tone-7);
         }
-        
-         :root {
+
+        :root {
             --color-present: var(--yellow);
             --color-correct: var(--green);
             --color-absent: var(--color-tone-2);
@@ -103,7 +91,7 @@
             --key-bg-absent: var(--color-absent);
             --modal-content-bg: var(--color-tone-7);
         }
-        
+
         .nightmode {
             --color-present: var(--darkendYellow);
             --color-correct: var(--darkendGreen);
@@ -117,7 +105,7 @@
             --key-bg-absent: var(--color-absent);
             --modal-content-bg: var(--color-tone-7);
         }
-        
+
         .colorblind {
             --color-correct: var(--orange);
             --color-present: var(--blue);
@@ -126,11 +114,11 @@
             --key-bg-correct: var(--color-correct);
             --key-bg-absent: var(--color-absent);
         }
-        
+
         html {
             height: 100%;
         }
-        
+
         body {
             height: 100%;
             background-color: var(--color-background);
